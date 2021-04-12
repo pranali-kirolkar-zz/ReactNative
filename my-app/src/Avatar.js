@@ -1,5 +1,6 @@
 import React from 'react';
 import './avatarstyle.css';
+import './mainpage.css';
 import 'tachyons';
 import Avatarlist from './Avatarlist';
 
@@ -28,9 +29,7 @@ const Avatar = (props) => {
 	 		work:'web developer'
 	 	}
 	 ]
-
-
-	return (<div>
+	return (<div className="mainpage">
 		<h1> Welcome to Avatar World </h1>
 		
 		<Avatarlist id={avatarlistarray[0].name}
