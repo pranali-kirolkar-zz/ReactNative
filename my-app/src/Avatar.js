@@ -10,23 +10,23 @@ const Avatar = (props) => {
 	 const avatarlistarray=[
 	 	{
 	 		id:1,
-	 		name:"shubham",
-	 		work:"web developer"
+	 		name:"SHUBHAM",
+	 		work:"WEB DEVELOPER"
 	 	},
 	 	{
 	 		id:2,
-	 		name:'Nikhil',
-	 		work:'python developer'
+	 		name:'NIKHIL',
+	 		work:'PYTHON DEVELOPER'
 	 	},
 	 	{
 	 		id:3,
-	 		name:'Swarup',
-	 		work:'java developer'
+	 		name:'SWARUP',
+	 		work:'JAVA DEVELOPER'
 	 	},
 	 	{
 	 		id:4,
-	 		name:'Priyansh',
-	 		work:'web developer'
+	 		name:'PRIYANSH',
+	 		work:'WEB DEVELOPER'
 	 	}
 	 ]
 	return (<div className="mainpage">
