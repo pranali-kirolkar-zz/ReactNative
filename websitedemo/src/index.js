@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Avatar from './Avatar';
+import App1 from './App1';
+import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(<Avatar/>,
+ReactDOM.render(
+	<>
+<BrowserRouter>
+	<App1/>
+</BrowserRouter>
+</>,
   document.getElementById('root')
 );
 
