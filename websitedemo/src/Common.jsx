@@ -2,7 +2,7 @@ import React from 'react';
 import web1 from '../src/image/a37oR.gif';
 import {NavLink } from "react-router-dom";
 
-const Home =() => {''
+const Common =() => {
 	return(
 		<>
 		<section id="header" className="d-flex align-items-center">
@@ -11,12 +11,12 @@ const Home =() => {''
 				  <div className="col-10 mx-auto">
 				  	<div className="row">
 				  	<div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-				  	<h1>Simple Education for <strong className="brand-name"> Smarter Courses. </strong></h1> 
+				  	<h1>Welcome to About Page <strong className="brand-name"> Pelligent Course. </strong></h1> 
 				  	<h2 className="my-3">
 				  	You are browsing the best resource for Online Education.</h2>
 				  	<div className="mt-3">
-						<NavLink className="btn-get-started" to="./Service">
-						Get Started...  
+						<NavLink className="btn-get-started" to="./Contact">
+						Contact Us  
 						</NavLink>
 					</div>
 				  	</div>
@@ -31,4 +31,4 @@ const Home =() => {''
 		);
 };
 
-export default Home;
+export default Common;
