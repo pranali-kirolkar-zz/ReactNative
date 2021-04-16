@@ -6,6 +6,7 @@ import Service from './Service';
 import Contact from './Contact';
 import About from './About';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import 'tachyons';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ const App1 =() => {
 		<Route exact path="/contact" component={Contact}  />
 		<Redirect to="/" />
 		</Switch>
+		<Footer/>
 		</>
 		);
 };
