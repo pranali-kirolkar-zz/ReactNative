@@ -10,7 +10,7 @@ const Navbar = () =>{
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
   			      <div className="container-fluid">
     			      <NavLink className="navbar-brand" to="/">
-                  Lenove
+                  Pelligent Course
                 </NavLink>
                 <button 
                   className="navbar-toggler" 

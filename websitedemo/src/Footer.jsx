@@ -4,7 +4,7 @@ const Footer=()=>{
 	return (
 		<>
 			<footer className="w-100 bg-light text-center">
-				<p>© 2021 Lenovo. All Rights Reserved | Terms and Condition </p>
+				<p>© 2021 Pelligent_Course. All Rights Reserved | Terms and Condition </p>
 			</footer>
 		</>
 	);
