@@ -1,18 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './Instruction.css';
 import emoji from './emoji.svg';
 
 
-export class Instruction extends Component {
-
-  render() {
-    return(
+const Instruction = () =>
+	(
     	  <div className="instruction">
     	  <img alt="laughing crying emoji" src={emoji} />
       	  <p>Click on an emoji to view the emoji short name.</p>
-
       	</div>
     )
-  }
-
-}
 export default Instruction;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Instruction from './Instruction.js';
+import Instruction from '../Instruction/Instruction.js';
 
 const displayEmojiName = event => alert(event.target.id);
 const emojis = [

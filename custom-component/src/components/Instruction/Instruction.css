@@ -1,0 +1,11 @@
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction img {
+    width: 100px;
+    height: 100px;
+}
