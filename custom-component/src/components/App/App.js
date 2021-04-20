@@ -31,8 +31,7 @@ function App() {
           emojis.map(emoji => (
             <li key={emoji.name}>
               <button
-                onClick={displayEmojiName}
-              >
+                onClick={displayEmojiName}>
                 <span role="img" aria-label={emoji.name} id={emoji.name}>{emoji.emoji}</span>
               </button>
             </li>
