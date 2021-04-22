@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Instruction from '../Instruction/Instruction.js';
+import Text from '../TEXT/Text.js';
+
 
 const displayEmojiName = event => alert(event.target.id);
 const emojis = [
@@ -37,9 +39,10 @@ function App() {
             </li>
           ))
         }
-      </ul>
+      </ul><Text/>
     </div>
   )
+
 }
 
 export default App;
